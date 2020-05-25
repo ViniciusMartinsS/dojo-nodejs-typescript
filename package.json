@@ -1,0 +1,19 @@
+{
+  "name": "dojo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start": "sucrase-node ./src/server",
+    "build": "sucrase ./src/functions -d ./dist --transforms"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sucrase": "^3.15.0",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
